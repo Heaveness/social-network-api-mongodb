@@ -28,20 +28,20 @@ Follow these instructions: <br>
 6. Use API call software like Postman or Insomnia to interact with the database. <br>
   
 ## Usage
-A CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well.
+The API can be used to create, read, update, and delete users, thoughts, and reactions in a social network application. It can handle large amounts of unstructured data using MongoDB. <br>
   
 ## License
 This project is licensed under the MIT license.
   
 ## Contribution
-Please use proper general rules for contribution and merging. Always git pull before you git push your changes. And no merge conflicts please. <br>
+Please follow general rules for contribution and merging. Always git pull before you git push your changes. And avoid merge conflicts, please. <br>
   
 ## Previews
 
-![Tech Blog Preview 1](public/screenshot/Tech-Blog-Preview-1.png) <br>
-![Tech Blog Preview 2](public/screenshot/Tech-Blog-Preview-2.png) <br>
-![Tech Blog Preview 3](public/screenshot/Tech-Blog-Preview-3.png) <br>
-![Tech Blog Preview 4](public/screenshot/Tech-Blog-Preview-4.png) <br>
+![ Preview 1]() <br>
+![ Preview 2]() <br>
+![ Preview 3]() <br>
+![ Preview 4]() <br>
 
 ## Tests
 Use this command to test: <br>
@@ -52,8 +52,8 @@ npm start <br>
 Use API call websites like Postman or Insomnia to get the database.<br>
 
 ## Links
-**Github Repo:** [Link to Github repository!](https://github.com/Heaveness/the-tech-blogger) <br>
-**Heroku App:** [Link to the Heroku App!](https://the-tech-blogger-heaveness-7bf39de84259.herokuapp.com/) <br>
+**Github Repo:** [Link to Github repository!](https://github.com/Heaveness/social-network-api-mongodb) <br>
+**Walkthrough Video:** [Link to the Walkthrough Video!]() <br>
 
 ## Credits
 **Websites:** W3schools, stackoverflow, & reddit <br>
