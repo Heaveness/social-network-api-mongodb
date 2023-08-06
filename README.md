@@ -61,7 +61,7 @@ To create a new Thought: **use POST request with a raw JSON body**
 To update a Thought by ID: **use PUT request with a raw JSON body**
 ```
 {
-    "thoughtText": "This is an updated Thought!",
+    "thoughtText": "This is an updated Thought!"
 }
 ```
 
@@ -95,7 +95,7 @@ Use API call websites like Postman or Insomnia to get the database.<br>
 
 ## Links
 **Github Repo:** [Link to Github repository!](https://github.com/Heaveness/social-network-api-mongodb) <br>
-**Walkthrough Video:** [Link to the Walkthrough Video!]() <br>
+**Walkthrough Video:** [Link to the Walkthrough Video!](https://drive.google.com/file/d/1bMk9KR2zMHf2Y_5MVb6N5f4E85P9HnLN/view) <br>
 
 ## Credits
 **Websites:** W3schools, stackoverflow, & reddit <br>
