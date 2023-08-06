@@ -7,6 +7,8 @@ This is a back-end API for a social network web application where users can shar
 The API uses a NoSQL database, MongoDB, which is a popular choice for many social networks due to its speed with large amounts of data and flexibility with unstructured data. <br>
 The API has CRUD functionality for users, thoughts, and reactions. <br>
 
+Go ahead and give it a test yourself! <br>
+
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
@@ -24,24 +26,22 @@ Follow these instructions: <br>
 2. Install Node.js. <br>
 3. Install necessary modules by using the command: npm install <br>
 4. Use any git terminal like Git Bash or Visual Studio Code.
-5. Start the server locally using the command: node server.js or npm start <br>
+5. Start the server locally using the command: npm start <br>
 6. Use API call software like Postman or Insomnia to interact with the database. <br>
   
 ## Usage
 The API can be used to create, read, update, and delete users, thoughts, and reactions in a social network application. It can handle large amounts of unstructured data using MongoDB. <br>
+
+Use API calls such as:
+- <span>http:/<span>/localhost:3001/api/users
+- <span>http:/<span>/localhost:3001/api/thoughts
+
   
 ## License
 This project is licensed under the MIT license.
   
 ## Contribution
 Please follow general rules for contribution and merging. Always git pull before you git push your changes. And avoid merge conflicts, please. <br>
-  
-## Previews
-
-![ Preview 1]() <br>
-![ Preview 2]() <br>
-![ Preview 3]() <br>
-![ Preview 4]() <br>
 
 ## Tests
 Use this command to test: <br>
