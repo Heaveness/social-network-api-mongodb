@@ -20,9 +20,9 @@ Go ahead and give it a test yourself! <br>
 - [Questions](#questions)
   
 ## Installation
-Follow these instructions: <br>
+Please follow these instructions: <br>
 1. Git clone this repository. <br>
-2. Install Node.js. <br>
+2. Install Node.js & MongoDB. <br>
 3. Install necessary modules by using the command: npm install <br>
 4. Use any git terminal like Git Bash or Visual Studio Code.
 5. Start the server locally using the command: npm start <br>
@@ -87,7 +87,7 @@ Please follow general rules for contribution and merging. Always git pull before
 
 ## Tests
 Use this command to test: <br>
-node server.js <br>
+nodemon server.js <br>
 or <br>
 npm start <br>
 
