@@ -1,4 +1,6 @@
+// Import the router object from express.
 const router = require('express').Router();
+// Import all the controller methods from the userControllers file.
 const {
   getAllUsers,
   getUserById,
@@ -9,23 +11,24 @@ const {
   removeFriend
 } = require('../../controllers/userControllers');
 
-// Set up GET all and POST at /api/users
+// Define a route for GET all and POST requests at /api/users.
 router
   .route('/')
   .get(getAllUsers)
-  .post(createUser);
+  .post(createUser); 
 
-// Set up GET one, PUT, and DELETE at /api/users/:id
+// Define a route for GET one, PUT, and DELETE requests at /api/users/:id.
 router
   .route('/:id')
   .get(getUserById)
   .put(updateUser)
   .delete(deleteUser);
 
-// Set up POST and DELETE at /api/users/:userId/friends/:friendId
+// Define a route for POST and DELETE requests at /api/users/:userId/friends/:friendId.
 router
   .route('/:userId/friends/:friendId')
   .post(addFriend)
   .delete(removeFriend);
 
+// Export the router object.
 module.exports = router;

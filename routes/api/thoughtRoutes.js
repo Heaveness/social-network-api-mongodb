@@ -1,4 +1,6 @@
+// Import the router object from express.
 const router = require('express').Router();
+// Import all the controller methods from the thoughtControllers file.
 const {
   getAllThoughts,
   getThoughtById,
@@ -9,27 +11,28 @@ const {
   removeReaction
 } = require('../../controllers/thoughtControllers');
 
-// Set up GET all and POST at /api/thoughts
+// Define a route for GET all and POST requests at /api/thoughts.
 router
   .route('/')
-  .get(getAllThoughts)
-  .post(createThought);
+  .get(getAllThoughts)  
+  .post(createThought);  
 
-// Set up GET one, PUT, and DELETE at /api/thoughts/:id
+// Define a route for GET one, PUT, and DELETE requests at /api/thoughts/:id.
 router
   .route('/:id')
-  .get(getThoughtById)
-  .put(updateThought)
-  .delete(deleteThought);
+  .get(getThoughtById)  
+  .put(updateThought)  
+  .delete(deleteThought); 
 
-// Set up POST at /api/thoughts/:thoughtId/reactions
+// Define a route for POST requests at /api/thoughts/:thoughtId/reactions.
 router
   .route('/:thoughtId/reactions')
-  .post(addReaction);
+  .post(addReaction);  
 
-// Set up DELETE at /api/thoughts/:thoughtId/reactions/:reactionId
+// Define a route for DELETE requests at /api/thoughts/:thoughtId/reactions/:reactionId.
 router
   .route('/:thoughtId/reactions/:reactionId')
   .delete(removeReaction);
 
+// Export the router object.
 module.exports = router;
