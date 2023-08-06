@@ -15,7 +15,6 @@ Go ahead and give it a test yourself! <br>
 - [License](#license)
 - [Contributing](#contribution)
 - [Tests](#tests)
-- [Previews](#previews)
 - [Links](#links)
 - [Credits](#credits)
 - [Questions](#questions)
@@ -35,7 +34,12 @@ The API can be used to create, read, update, and delete users, thoughts, and rea
 Use API calls such as:
 - <span>http:/<span>/localhost:3001/api/users
 - <span>http:/<span>/localhost:3001/api/thoughts
+- <span>http:/<span>/localhost:3001/api/thoughts/thoughtId*
+- <span>http:/<span>/localhost:3001/api/thoughts/thoughtId*/reactions
+- <span>http:/<span>/localhost:3001/api/thoughts/thoughtId*/reactions/reactionId*
+- <span>http:/<span>/localhost:3001/api/users/userId*/friends/friendId*
 
+*Replace the IDs with the with the actual proper IDs from the database.
   
 ## License
 This project is licensed under the MIT license.
