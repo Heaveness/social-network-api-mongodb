@@ -41,22 +41,16 @@ Use API calls such as:
 
 *Replace the IDs with the with the actual proper IDs from the database.
 
-To Create a new User:
+To Create a new User: **use POST request with a raw JSON body**
 ```
-Send a POST request to /api/users
-with a raw JSON body:
-
 {
     "username": "jane.smith",
     "email": "jane.smith@example.com"
 }
 ```
 
-To create a new Thought: Use POST request
+To create a new Thought: **use POST request with a raw JSON body**
 ```
-Send a POST request to /api/thoughts/
-with a raw JSON body:
-
 {
     "thoughtText": "This is a new Thought!",
     "username": "jane.smith",
@@ -64,31 +58,25 @@ with a raw JSON body:
 }
 ```
 
-To update a Thought by ID: use PUT request
+To update a Thought by ID: **use PUT request with a raw JSON body**
 ```
-Send a PUT request to /api/thoughts/thoughtId
-with a raw JSON body:
-
 {
     "thoughtText": "This is an updated Thought!",
 }
 ```
 
-To create a new Reaction: use POST request
+To create a new Reaction: **use POST request with a raw JSON body**
 ```
-Send a POST request to api/thoughts/thoughtId/reactions
-with a raw JSON body:
-
 {
     "reactionBody": "Woah! This is a Reaction to that Thought!",
     "username": "john.doe"
 }
 ```
 
-To add a Friend to a user's Friend list: Must create two Users beforehand
+To add a Friend to a user's Friend list: **must create two Users beforehand**
 ```
 Send a POST request to /api/users/userId/friends/friendId
-replace userId with 1st userID and friendId with 2nd userId
+then replace userId with 1st userID and friendId with 2nd userId
 ```
 
 ## License
